@@ -1,0 +1,12 @@
+{
+  "noooo": {
+    "category": "master",
+    "subtitle": "subtitles.noooo",
+    "sounds": [
+      {
+        "name": "noooooo:noooo",
+        "stream": false
+      }
+    ]
+  }
+}
