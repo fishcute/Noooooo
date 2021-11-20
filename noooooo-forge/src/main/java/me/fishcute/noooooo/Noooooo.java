@@ -24,16 +24,10 @@ public class Noooooo
     public static final String MODID = "noooooo";
     public static boolean shouldPlay = true;
 
-
     public Noooooo() {
-
-
         MinecraftForge.EVENT_BUS.register(Noooooo.class);
-
         SPEC = BUILDER.build();
-
         ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT,SPEC);
-
     }
 
     @SubscribeEvent
